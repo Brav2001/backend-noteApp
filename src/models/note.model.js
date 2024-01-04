@@ -19,7 +19,7 @@ Note.init(
       allowNull: false,
     },
     description: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       length: 255,
       allowNull: false,
     },
