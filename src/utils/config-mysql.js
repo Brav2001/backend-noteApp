@@ -2,8 +2,8 @@ import { Sequelize } from "sequelize";
 
 const sequelize = new Sequelize(
   "noteapp-db",
-  "1vgbbvjaj2kk9p288yqk",
-  "pscale_pw_FyifY5aDb8rnsOy5dhmHKUsTYYIBgs7TGlK9fa9tjwZ",
+  process.env.DATABASE_USERNAME,
+  process.env.DATABASE_PASSWORD,
   {
     host: "us-east.connect.psdb.cloud",
     dialect: "mysql",
